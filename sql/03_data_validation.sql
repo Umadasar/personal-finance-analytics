@@ -1,0 +1,30 @@
+-- =============================================
+-- DATA VALIDATION
+-- =============================================
+
+-- Check loaded row count
+SELECT COUNT(*) AS ROW_COUNT
+FROM PERSONAL_FINANCE_DB.RAW.TRANSACTIONS;
+
+
+-- Inspect sample records
+SELECT *
+FROM PERSONAL_FINANCE_DB.RAW.TRANSACTIONS
+LIMIT 10;
+
+
+-- Reconcile income and expense totals
+SELECT
+    TYPE,
+    SUM(AMOUNT) AS TOTAL_AMOUNT
+FROM PERSONAL_FINANCE_DB.RAW.TRANSACTIONS
+GROUP BY TYPE
+ORDER BY TYPE;
+
+
+-- Check for missing critical fields
+SELECT
+    COUNT_IF(TRANSACTION_DATE IS NULL) AS MISSING_DATES,
+    COUNT_IF(TYPE IS NULL) AS MISSING_TYPES,
+    COUNT_IF(AMOUNT IS NULL) AS MISSING_AMOUNTS
+FROM PERSONAL_FINANCE_DB.RAW.TRANSACTIONS;

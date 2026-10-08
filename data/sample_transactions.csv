@@ -1,0 +1,37 @@
+Date,Year,Month,Description,Category,Subcategory,Type,Payment Method,Fixed/Variable,Needs/Wants,Amount
+2026-01-01,2026,January,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-01-03,2026,January,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-01-06,2026,January,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,105.00
+2026-01-10,2026,January,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-01-14,2026,January,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-01-18,2026,January,Plumbing Repair,Home Maintenance,Repair,Expense,Credit Card,Variable,Needs,250.00
+2026-02-01,2026,February,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-02-03,2026,February,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-02-06,2026,February,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,98.00
+2026-02-10,2026,February,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-02-14,2026,February,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-02-20,2026,February,HVAC Service,Home Maintenance,Service,Expense,Credit Card,Variable,Needs,180.00
+2026-03-01,2026,March,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-03-03,2026,March,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-03-06,2026,March,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,112.00
+2026-03-10,2026,March,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-03-14,2026,March,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-03-22,2026,March,Appliance Repair,Home Maintenance,Repair,Expense,Credit Card,Variable,Needs,850.00
+2026-04-01,2026,April,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-04-03,2026,April,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-04-06,2026,April,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,120.00
+2026-04-10,2026,April,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-04-14,2026,April,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-04-21,2026,April,Minor Home Repair,Home Maintenance,Repair,Expense,Credit Card,Variable,Needs,175.00
+2026-05-01,2026,May,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-05-03,2026,May,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-05-06,2026,May,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,135.00
+2026-05-10,2026,May,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-05-14,2026,May,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-05-25,2026,May,Home Maintenance,Home Maintenance,Maintenance,Expense,Credit Card,Variable,Needs,300.00
+2026-06-01,2026,June,Monthly Salary,Income,Salary,Income,Direct Deposit,Fixed,Needs,7000.00
+2026-06-03,2026,June,Mortgage,Housing,Mortgage,Expense,Bank Transfer,Fixed,Needs,1650.00
+2026-06-06,2026,June,Electricity,Utilities,Electricity,Expense,Credit Card,Variable,Needs,150.00
+2026-06-10,2026,June,Internet,Utilities,Internet,Expense,Credit Card,Fixed,Needs,80.00
+2026-06-14,2026,June,Home Insurance,Insurance,Home Insurance,Expense,Bank Transfer,Fixed,Needs,35.00
+2026-06-24,2026,June,AC Maintenance,Home Maintenance,Service,Expense,Credit Card,Variable,Needs,425.00
