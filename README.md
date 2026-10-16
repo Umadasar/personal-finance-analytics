@@ -51,6 +51,7 @@ The **RAW** schema preserves source-level transaction data, while the **ANALYTIC
 
 - Snowflake
 - SQL
+- Python (pandas) — Automated data quality validation
 - Google Sheets
 - CSV
 - GitHub
@@ -84,6 +85,29 @@ Before analysis, the raw dataset was validated by checking:
 - Numeric amount formatting
 
 This step helped verify that the source data was loaded correctly before transformations were created.
+
+## Python Data Quality Validation
+
+Developed a reusable Python validation script using pandas to assess transaction data before Snowflake ingestion.
+
+The script performs:
+
+- Required column validation and data-type conversion
+- Missing-value and invalid-date detection
+- Duplicate transaction detection
+- Invalid amount and transaction-type checks
+- Automated PASS/FAIL assessment
+- CSV data-quality report generation
+
+**Run the validation script:**
+
+```bash
+python python/validate_transactions.py
+```
+
+The script produces `data/data_quality_report.csv`.
+
+Validation results are reported before ingestion; the script does not automatically load data into Snowflake.
 
 ## Analytics Layer
 
