@@ -1,0 +1,2 @@
+total_records,total_columns,missing_values,duplicate_records,invalid_dates,invalid_amounts,invalid_types,status
+36,11,0,0,0,0,0,PASS
